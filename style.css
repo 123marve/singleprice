@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: #E5EFF5;
+    overflow: hidden;
+    font-family: 'Karla', sans-serif;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+}
+
+.container{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-section{
+    background-color: #fff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.top-section h2{
+    color: #2AB2AF;
+}
+
+.top-section h3{
+    color: #C0DF34;
+}
+
+.top-section p{
+    color: #98A6BD;
+}
+
+.bottom-section{
+    color: #fff;
+    display: flex;
+}
+
+.subscription{
+    background-color: #2AB2AF;
+    width: 50%;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+}
+
+.subscription .price{
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.subscription button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background: #C0DF34;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.subscription button:hover{
+        background-color: yellow;
+}
+
+.why-us{
+    background-color: #4ABEBD;
+    width: 50%;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+@media screen and (max-width: 767px) {
+    body{
+        overflow: auto;
+        font-family: 'Karla', sans-serif;
+        font-size: 16px
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ;
+    }
+    .container{
+        height: auto;
+        margin: 30px;
+    }
+    .bottom-section{
+        flex-direction: column;
+    }
+    .subscription{
+        width: 100%;
+        border-bottom-left-radius: unset;
+    }
+    .why-us{
+        width: 100%;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+
